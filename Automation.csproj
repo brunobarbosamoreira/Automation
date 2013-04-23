@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Modbus">
-      <HintPath>..\..\..\Downloads\NModbus_net-3.5_1.11.0.0\bin\netcf\Modbus.dll</HintPath>
+    <Reference Include="Modbus, Version=1.11.0.0, Culture=neutral, PublicKeyToken=b5aba55fcbc8d946, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Modbus.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,6 +43,13 @@
     <Compile Include="PLC\IPLC.cs" />
     <Compile Include="Tags\ITag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Lib\log4net.dll" />
+    <Content Include="Lib\Modbus.dll" />
+    <Content Include="Lib\Modbus.Extensions.dll" />
+    <Content Include="Lib\Unme.Common.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
