@@ -1,0 +1,16 @@
+E:\Projects\DEMOS\Automation\Automation\bin\Debug\Automation.dll
+E:\Projects\DEMOS\Automation\Automation\bin\Debug\Automation.pdb
+E:\Projects\DEMOS\Automation\Automation\bin\Debug\Modbus.dll
+E:\Projects\DEMOS\Automation\Automation\bin\Debug\log4net.dll
+E:\Projects\DEMOS\Automation\Automation\bin\Debug\Unme.Common.dll
+E:\Projects\DEMOS\Automation\Automation\obj\Debug\Automation.dll
+E:\Projects\DEMOS\Automation\Automation\obj\Debug\Automation.pdb
+E:\Projects\DEMOS\Automation\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\bin\Debug\Automation.dll
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\bin\Debug\Automation.pdb
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\bin\Debug\Modbus.dll
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\bin\Debug\log4net.dll
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\bin\Debug\Unme.Common.dll
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\obj\Debug\Automation.dll
+C:\Users\Bruno Moreira\Desktop\Automation\Automation\Automation\obj\Debug\Automation.pdb

@@ -5,14 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D57F417C-AA56-4CF6-88D8-FBBD0D1ED657}</ProjectGuid>
+    <ProjectGuid>{1AE7E686-5B0F-41AF-A849-80BE8B14B562}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Automation</RootNamespace>
     <AssemblyName>Automation</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,17 +33,32 @@
   <ItemGroup>
     <Reference Include="Modbus, Version=1.11.0.0, Culture=neutral, PublicKeyToken=b5aba55fcbc8d946, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\Modbus.dll</HintPath>
+      <HintPath>lib\Modbus.dll</HintPath>
+      <Aliases>NModbus</Aliases>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PLC\IPLC.cs" />
-    <Compile Include="Tags\ITag.cs" />
+    <Compile Include="ITag.cs" />
+    <Compile Include="IPLC.cs" />
+    <Compile Include="Modbus\WorkItem\CoilsWorkItem.cs" />
+    <Compile Include="Modbus\WorkItem\HoldingRegistersWorkItem.cs" />
+    <Compile Include="Modbus\IModbusMaster.cs" />
+    <Compile Include="Modbus\ModbusAddress.cs" />
+    <Compile Include="Modbus\ModbusTcpMaster.cs" />
+    <Compile Include="Modbus\Tag\IModbusTag.cs" />
+    <Compile Include="Modbus\Tag\Tags.cs" />
+    <Compile Include="Modbus\WorkItem\IWorkItem.cs" />
+    <Compile Include="NotifyPropertyChanged.cs" />
+    <Compile Include="PLC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Automation.cd" />
+    <None Include="Modbus\Modbus.cd" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Lib\log4net.dll" />
     <Content Include="Lib\Modbus.dll" />

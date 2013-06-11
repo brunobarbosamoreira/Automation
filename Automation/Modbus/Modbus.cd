@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Automation.Modbus.ModbusTcpMaster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Automation.Modbus.ModbusTcpMaster.SlaveManufacturer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modbus\ModbusTcpMaster.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>kAYEhDAAAAAAQIAABAQAYIYgKIBggFAAAAAEACEEgAg=</HashCode>
+      <FileName>Modbus\ModbusTcpMaster.cs</FileName>
+      <NewMemberFileName>Modbus\ModbusMaster.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Automation.Modbus.ModbusSerialMaster" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAACgAAAIAAAAAAAABAAABAAAAAAAA=</HashCode>
+      <FileName>Modbus\ModbusMaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.ModbusMaster" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAIAAgEAAAAAAAAEAAAA=</HashCode>
+      <FileName>Modbus\ModbusMaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.WorkItem.HoldingRegistersWorkItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYEAAAAQAAAgAQAAAAAAEIAAAAAAEACAgAAAAAAQAA=</HashCode>
+      <FileName>Modbus\WorkItem\HoldingRegistersWorkItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Automation.Modbus.WorkItem.CoilsWorkItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYEAAAAQAAAgAQAAAAAAEIAAAAAAEACAgAAAAAAQAA=</HashCode>
+      <FileName>Modbus\WorkItem\CoilsWorkItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagInt16" Collapsed="true">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.ModbusTag&lt;T&gt;">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQAQAAAAAgAAAAAAAAEBgAAAAAAACAAAUAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagBoolean" Collapsed="true">
+    <Position X="17" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagUInt16" Collapsed="true">
+    <Position X="1.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagSingle">
+    <Position X="10.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagInt32" Collapsed="true">
+    <Position X="12.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagUInt32" Collapsed="true">
+    <Position X="14.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagInt64" Collapsed="true">
+    <Position X="19.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagUInt64" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Modbus.Tag.TagDouble" Collapsed="true">
+    <Position X="8" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\Tags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Automation.Tag&lt;T&gt;">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAIAIAQAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Automation.Modbus.Address" Collapsed="true">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgACAQgAAAAAAAIAAAAEAAAAAByA=</HashCode>
+      <FileName>Modbus\ModbusAddress.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Automation.Modbus.IModbusSerialMaster" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\IModbusMaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Automation.Modbus.IModbusIPMaster" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\IModbusMaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Automation.Modbus.IModbusMaster" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\IModbusMaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Automation.Modbus.WorkItem.IWorkItem" Collapsed="true">
+    <Position X="21.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAQAA=</HashCode>
+      <FileName>Modbus\WorkItem\IWorkItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Automation.Modbus.Tag.IModbusTag&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\IModbusTag.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Automation.Modbus.Tag.IModbusTag" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\Tag\IModbusTag.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Automation.Modbus.Table" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAIAAAgAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modbus\ModbusAddress.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
